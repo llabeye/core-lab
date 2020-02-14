@@ -5,6 +5,11 @@ This is where your custom styles begin.
 ==========================================================================  */
 
 
-.home {
+.home {background-color:white;
     
+}
+#home{
+	font-family:'helvetica',bold;
+	font-size:80px;
+
 }
