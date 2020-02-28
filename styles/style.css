@@ -51,23 +51,14 @@ a:link {
 	color:white;
 
 }
-a:hover{
-	color:#0091ff;
-}
-a:visited {
-	text-decoration:underline;
+a:visited{
 	color:white;
 
 }
-.alb{
-	position:absolute;
-	text-align:center;
-	top:20%;
-	left:30%;
-	z-index:50;
-	font-family:"Krona One";
-	font-size:18pt;
+a:hover{
+	color:#0091ff;
 }
+
 
 svg.two{
 	width:629px;
@@ -88,7 +79,7 @@ svg.four{
 	height:auto;
 	z-index:-3;
 	position:relative;
-	right:50%;
+	right:90%;
 	top:30%;
 }
 svg.five{
