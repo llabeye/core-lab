@@ -32,31 +32,64 @@ box-sizing: inherit;
 	flex-direction: row;
 	justify-content:space-between;
 }
-.y{
-	position:absolute;
-	top:10%;
-	left:50%;
-	z-index:50;
-}
+
 svg.one{
 	position:relative;
 	height:629px;
 	width:auto;
 }
+.y{
+	position:absolute;
+	text-align:center;
+	top:80%;
+	left:20%;
+	z-index:50;
+	font-family:"Quattrocento";
+	font-size:18pt;
+}
+a:link {
+	color:white;
+
+}
+a:hover{
+	color:#0091ff;
+}
+a:visited {
+	text-decoration:underline;
+	color:white;
+
+}
+.alb{
+	position:absolute;
+	text-align:center;
+	top:20%;
+	left:30%;
+	z-index:50;
+	font-family:"Krona One";
+	font-size:18pt;
+}
+
 svg.two{
 	width:629px;
 	height:auto;
 	z-index:-1;
+	position:relative;
+	top:20%;
 }
 svg.three{
 	width:314.5px;
 	height:auto;
 	z-index:-2;
+	position:relative;
+	top:10%;
 }
 svg.four{
 	width:314.5px;
 	height:auto;
 	z-index:-3;
+	position:relative;
+	right:50%;
+	top:30%;
 }
 svg.five{
 	height:314.5px;
@@ -67,6 +100,8 @@ svg.six{
 	height:471.73px;
 	width:auto;
 	z-index:-5;
+	position:relative;
+	bottom:20%;
 }
 svg.seven{
 	width:314.5px;

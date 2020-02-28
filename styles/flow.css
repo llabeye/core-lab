@@ -1,0 +1,152 @@
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right:0;
+}
+
+@media screen and (max-width: 1440px) { 
+  img.bg {
+    margin-left: -512px;  
+  }
+}
+div.convbox{
+	width:35%;
+	height:65%;
+	overflow:hidden;
+	position:fixed;
+	padding:20px;
+	left:32.5%;
+	right:32.5%;
+	top:15%;
+	border:2px solid #000;
+	background:#0091ff;
+}
+
+
+div.response{
+	position:absolute;
+	padding:15px;
+	bottom:0;
+	left:5%;
+	font-family:'Quattrocento';
+	font-size:14pt;
+	text-align:left;
+}
+a#second{
+	display:none;
+}
+a#third{
+	display:none;
+}
+a#fourth{
+	display:none;
+}
+a#fifth{
+	display:none;
+}
+
+div.aftermath{
+	display:none;
+}
+div.judgementday{
+	display:none;
+}
+div.armageddon{
+	display:none;
+}
+div.ragnarok{
+	display:none;
+}
+div.gosh{
+	display:none;
+	z-index:+2;
+}
+div.putain{
+	display:none;
+}
+div.schibe{
+	display:none;
+}
+div.merde{
+	display:none;
+}
+div.made{
+	display:none;
+}
+div.kathy{
+	position:absolute;
+	padding:20px;
+	bottom:35;
+	z-index:-1;
+	font-family:'Space Mono','monospace';
+	font-size:28px;
+}
+div.munch{
+	display:none;
+	width:35%;
+	height:65%;
+	position:fixed;
+	padding:20px;
+	left:32.5%;
+	right:32.5%;
+	top:15%;
+	border:2px solid #fff;
+	text-align:center;
+	font-family:'Quattrocento';
+	font-size:40px;
+	font-weight:bold;
+}
+
+a:link {
+	text-decoration:underline;
+	color:white;
+
+}
+a:visited {
+	text-decoration:underline;
+	color:white;
+
+}
+div.gibberish{
+	display:none;
+	font-family:'Barriecito',cursive;
+	line-height:20pt;
+	font-size:80pt
+}
+div.afterthought{
+	font-family:'Quattrocento';
+	font-size:18px;
+	color:white;
+	display:none;
+}
+div.finishing{
+	font-family:'Quattrocento';
+	font-size:18px;
+	color:white;
+	display:none;
+}
+div.small{
+  position: fixed; 
+  bottom:100; 
+  left:50;
+  z-index:+3;
+  margin-left: auto; 
+  margin-right: auto; 
+  width:30%;
+  color:white;
+
+}
+@media (max-width:800px){
+
+	div.kathy{
+		font-size:20px;
+	}
+	div.munch{
+		font-size:30px;
+		bottom:10;
+	}
+}
