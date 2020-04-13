@@ -1,58 +1,233 @@
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Alex Mi</title>
-    <meta name="description" content="Core Lab Interaction">
-    <meta name="author" content="Alex Mi">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="msapplication-config" content="/assets/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+    <meta name="description" content="Core Lab Interaction" />
+    <meta name="author" content="Alex Mi" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-config" content="/assets/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
 
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barrio|BioRhyme+Expanded:200|Krona+One|Libre+Barcode+39+Extended+Text|Modak|Nova+Cut|Stint+Ultra+Expanded&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quattrocento|Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Barrio|BioRhyme+Expanded:200|Krona+One|Libre+Barcode+39+Extended+Text|Modak|Nova+Cut|Stint+Ultra+Expanded&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quattrocento|Space+Mono&display=swap" rel="stylesheet">
-
-</head>
-
-
-<body>
-
-  <div class="container">
-    <div class="home">
+  <body>
+    <div class="container">
+      <div class="home">
         <div class="puzzcon">
-    <div class="puzzle">
-        <div class="proj1"><svg class="one" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593.58 1187.16"><defs><style>.cls-1{fill:#ff8f00;opacity:0.8;}</style></defs><title>Project 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="0 1187.16 593.58 593.58 0 0 0 1187.16"/></g></g></svg><a href="Projects/flowmytears.html"><span class="y">Expressions</span></a></div>
-        <div class="proj2"><svg class="two" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1187.16 593.58"><defs><style>.cls-2{fill:#32c5ff;opacity:0.8;}</style></defs><title>Project 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-2" points="0 0 593.58 593.58 891.9 295.25 1187.16 0 0 0"/></g></g></svg></div>
-        <div class="proj3"><svg class="three" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593.58 296.79"><defs><style>.cls-3{fill:#ffcd00;opacity:0.8;}</style></defs><title>Project 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-3" points="593.58 296.79 296.79 0 0 296.79 593.58 296.79"/></g></g></svg></div>
-        <div class="proj4"><svg class="four" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593.58 593.58"><defs><style>.cls-4{fill:#e02020;opacity:0.8;}</style></defs><title>Project 4</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-4" x="86.93" y="86.93" width="419.72" height="419.72" transform="translate(-122.93 296.79) rotate(-45)"/></g></g></svg></div>
+          <div class="puzzle">
+            <div class="proj1 draggable">
+              <svg
+                class="one"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 593.58 1187.16"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #ff8f00;
+                      opacity: 0.8;
+                    }
+                  </style>
+                </defs>
+                <title>Project 1</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <polygon
+                      class="cls-1"
+                      points="0 1187.16 593.58 593.58 0 0 0 1187.16"
+                    />
+                  </g>
+                </g></svg>
+              <a href="Projects/flowmytears.html"
+                ><span class="y">Expressions</span></a
+              >
+            </div>
+            <div class="proj2 draggable">
+              <svg
+                class="two draggable"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1187.16 593.58"
+              >
+                <defs>
+                  <style>
+                    .cls-2 {
+                      fill: #32c5ff;
+                      opacity: 0.8;
+                    }
+                  </style>
+                </defs>
+                <title>Project 2</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <polygon
+                      class="cls-2"
+                      points="0 0 593.58 593.58 891.9 295.25 1187.16 0 0 0"
+                    />
+                  </g>
+                </g>
+              </svg>
+              <a href="https://llabeye.github.io/NYPL/"
+                ><span class="z">New York <br>Public Library</span></a
+              >
+            </div>
+            <div class="proj3 draggable">
+              <svg
+                class="three"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 593.58 296.79"
+              >
+                <defs>
+                  <style>
+                    .cls-3 {
+                      fill: #ffcd00;
+                      opacity: 0.8;
+                    }
+                  </style>
+                </defs>
+                <title>Project 3</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <polygon
+                      class="cls-3"
+                      points="593.58 296.79 296.79 0 0 296.79 593.58 296.79"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="proj4 draggable">
+              <svg
+                class="four"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 593.58 593.58"
+              >
+                <defs>
+                  <style>
+                    .cls-4 {
+                      fill: #e02020;
+                      opacity: 0.8;
+                    }
+                  </style>
+                </defs>
+                <title>Project 4</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <rect
+                      class="cls-4"
+                      x="86.93"
+                      y="86.93"
+                      width="419.72"
+                      height="419.72"
+                      transform="translate(-122.93 296.79) rotate(-45)"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="puzzle">
+            <div class="proj5 draggable">
+              <svg
+                class="five"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 296.79 593.58"
+              >
+                <defs>
+                  <style>
+                    .cls-5 {
+                      fill: #44d7b6;
+                      opacity: 0.8;
+                    }
+                  </style>
+                </defs>
+                <title>Project 5</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <polygon
+                      class="cls-5"
+                      points="296.79 0 0 296.79 296.79 593.58 296.79 0"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="proj6 draggable">
+              <svg
+                class="six"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 296.8 890.33"
+              >
+                <defs>
+                  <style>
+                    .cls-6 {
+                      fill: #ffed00;
+                      opacity: 0.8;
+                    }
+                  </style>
+                </defs>
+                <title>Project 6</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_2-2" data-name="Layer 2">
+                    <polygon
+                      class="cls-6"
+                      points="1.17 296.1 0 890.33 296.75 593.58 296.8 0 1.17 296.1"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="proj7 draggable">
+              <svg
+                class="seven"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 593.57 593.57"
+              >
+                <defs>
+                  <style>
+                    .cls-7 {
+                      fill: #6dd400;
+                      opacity: 0.8;
+                    }
+                  </style>
+                </defs>
+                <title>Project 7</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <polygon
+                      class="cls-7"
+                      points="0 593.57 593.57 593.57 593.57 0 296.83 296.75 0 593.57"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="intro">
+        Alex Mi <br />
+        is a sophomore<br />design student at<br />Parsons School of Design<br />in
+        Manhattan, New York City.
+      </div>
     </div>
-        <div class="puzzle">
-        <div class="proj5"><svg class="five" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296.79 593.58"><defs><style>.cls-5{fill:#44d7b6;opacity:0.8;}</style></defs><title>Project 5</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-5" points="296.79 0 0 296.79 296.79 593.58 296.79 0"/></g></g></svg></div>
-        <div class="proj6"><svg class="six" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296.8 890.33"><defs><style>.cls-6{fill:#ffed00;opacity:0.8;}</style></defs><title>Project 6</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><polygon class="cls-6" points="1.17 296.1 0 890.33 296.75 593.58 296.8 0 1.17 296.1"/></g></g></svg></div>
-        <div class="proj7"><svg class="seven" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593.57 593.57"><defs><style>.cls-7{fill:#6dd400;opacity:0.8;}</style></defs><title>Project 7</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-7" points="0 593.57 593.57 593.57 593.57 0 296.83 296.75 0 593.57"/></g></g></svg></div>
-    </div>
-   </div>
-    </div>
-        <div class="intro">Alex Mi <br> is a sophomore<br>design student at<br>Parsons School of Design<br>in Manhattan, New York City.
-    </div>
 
-
-</div>
-
-
-<script src="js/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="js/index.js"></script>
-
-</body>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
