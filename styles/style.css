@@ -38,6 +38,14 @@ svg.one{
 	height:629px;
 	width:auto;
 }
+.x{
+	position:absolute;
+	text-align:center;
+	font-family:"Quattrocento";
+	font-size:2vw;
+	right:125%;
+	top:60%;
+}
 .y{
 	position:absolute;
 	text-align:center;
