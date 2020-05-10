@@ -1,0 +1,176 @@
+body{
+background-image:url('../assets/background.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+overflow:hidden;
+overflow-y:hidden;
+overflow-x:hidden;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select:none;
+}
+.wrapper{
+  overflow:hidden;
+  height:100%;
+  width:100vw;
+  position:relative;
+  text-align:center;
+  padding:10px;
+}
+.ipad{
+  width:32vh;
+  height:25vh;
+  position:absolute;
+  right:29%;
+  top:3%;
+  transform:rotate(-15deg);
+}
+.project:hover{
+  cursor:pointer;
+}
+.switch{
+  width:18vh;
+  height:18vh;
+  position:absolute;
+  left:22%;
+  top:48%;
+  transform:rotate(-26deg);
+}
+.radio{
+  width:13vh;
+  height:9vh;
+  position:absolute;
+  left:47%;
+  top:30%;
+  transform:rotate(-28deg);
+}
+.mask{
+  width:18vh;
+  height:18vh;
+  position:absolute;
+  right:37%;
+  top:45%;
+}
+.camera{
+  width:23vh;
+  height:15vh;
+  position:absolute;
+  right:20%;
+  top:30%;
+  transform:rotate(32deg);
+}
+.book{
+  width:23vh;
+  height:35vh;
+  position:absolute;
+  bottom:5%;
+  right:21%;
+  transform:rotate(25deg);
+}
+.keyboard{
+  width:65vh;
+  height:22vh;
+  position:absolute;
+  bottom:0%;
+  left:26%;
+  transform:rotate(10deg);
+}
+.balm{
+  width:8vh;
+  height:8vh;
+  position:absolute;
+  left:41%;
+  top:43%;
+}
+.cover{
+  display:table;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  z-index:-1;
+}
+.table{
+  display:table-cell;
+  vertical-align:middle;
+}
+.title{
+  margin-left:auto;
+  margin-right:auto;
+  font-family:'ArcherPro';
+  font-size:18.2vw;
+  color:yellow;
+  text-align:center;
+  width:100%;
+}
+.wo{
+  width:8%;
+  height:30%;
+  position:absolute;
+  background-repeat:no-repeat;
+  background-image:url('../assets/alex.png');
+  background-size:contain;
+  top:10%;
+  left:6%;
+  opacity:0;
+}
+.wo:hover{
+  cursor:move;
+}
+.intro{
+  width:20%;
+  text-align:right;
+  font-family:'ArcherPro';
+  font-size:1.9vw;
+  padding:10px;
+  color:white;
+  position:absolute;
+  right:3%;
+  display:inline-block;
+  opacity:0;
+}
+.yep{
+  color:lightsalmon;
+  font-family:'ArcherPro';
+  font-size:20pt;
+  display:none;
+  position:absolute;
+  bottom:0;
+}
+.show{
+  opacity:100;
+}
+.mobile{
+  width:100%;
+  height:100%;
+  display:none;
+}
+@media (max-width:800px){
+  body
+  {background-image:url('../assets/mobile.png');}
+  .wrapper{
+    display:none;
+  }
+  .mobile{
+    display:block;
+  }
+  .mobile:hover{
+    cursor:pointer;
+  }
+
+}
+@media (max-height:500px){
+  body{
+    background-image:none;
+    background-color:black;
+  }
+  .wrapper{
+    display:none;
+  }
+  .yep{
+    display:block;
+  }
+}
