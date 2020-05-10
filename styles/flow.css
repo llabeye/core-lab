@@ -1,5 +1,12 @@
 body{
 	background-color:red;
+	user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	overflow-x:hidden;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 img.bg {
   min-height: 100%;
