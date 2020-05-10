@@ -4,11 +4,13 @@ background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
 overflow:hidden;
-overflow-y:hidden;
-overflow-x:hidden;
 user-select: none;
 -moz-user-select: none;
 -webkit-user-select:none;
+}
+@font-face{
+  font-family:'ArcherPro';
+  src: url(../assets/ArcherPro-Medium.otf) format("OpenType");
 }
 .wrapper{
   overflow:hidden;
