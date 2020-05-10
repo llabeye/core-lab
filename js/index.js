@@ -5,7 +5,7 @@ $(document).ready(function(){
         $('.title').text(" ");
     });
     $('.ipad').click(function(){
-        window.open('https://llabeye.github.io/core-lab/Projects/collage.html');
+        window.open('https://llabeye.github.io/core-lab2/Projects/collage.html');
         return false;
     })
     $('.switch').hover(function(){
@@ -23,7 +23,7 @@ $(document).ready(function(){
         $('.title').text(" ");
     });
     $('.book').click(function(){
-        window.open('https://llabeye.github.io/core-lab/Projects/flowmytears.html');
+        window.open('https://llabeye.github.io/core-lab2/Projects/flowmytears.html');
         return false;
     })
     $('.mask').hover(function(){
